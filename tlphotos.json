@@ -1,0 +1,17 @@
+{
+    "lastRun": "2022-12-17T10:25:01 UTC",
+    "frameCount": 496,
+    "sunrise": "2022-12-17T08:17:05 UTC",
+    "sunset": "2022-12-17T15:46:51 UTC",
+    "status": "ok",
+    "pyVersion": "3.10.5 (main, Jun  8 2022, 09:26:22) [GCC 11.3.0]",
+    "saveImages": true,
+    "saveVideo": false,
+    "dawn": "2022-12-17T07:33:23 UTC",
+    "dusk": "2022-12-17T16:30:33 UTC",
+    "dawnMinus": "2022-12-17T06:53:23 UTC",
+    "duskPlus": "2022-12-17T17:10:33 UTC",
+    "videoFPS": 8,
+    "dawnOffsetMinutes": -40,
+    "duskOffsetMinutes": 40
+}
