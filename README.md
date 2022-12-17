@@ -1,6 +1,6 @@
 # Daytime Video Timelapse
 
-A Python script that saves an image from a USB camera during the hours of daylight, from dawn to dusk.
+A Python script that saves an image from a USB camera during the hours of daylight, from dawn till dusk.
 
 ## Installation
 Copy the files to a directory, the **imageFrames** and **videoCap** directories will be crerated when first run, the *tlphotos.json* file will be created with defults if it doesn't exist.
