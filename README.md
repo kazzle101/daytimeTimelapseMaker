@@ -59,10 +59,11 @@ options:
   -o OUT, --out OUT  output filename .avi
   -r, --recursive    recursivley walk through the directory
   -f FPS, --fps FPS  framerate
+  -t, --timestamp    add a timestamp to the bottom right of the first 25 frames of the day
 ```
 for example:
 ```
-$ python tlcombine.py -r -d imageFrames/ -o videoCap/timeview.avi -f 8
+$ python tlcombine.py -r -d imageFrames/ -o videoCap/timeview.avi -f 8 -t
 output file: videoCap/timeview.avi
 458 images to combine at 8fps
 ```
