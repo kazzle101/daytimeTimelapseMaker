@@ -3,7 +3,7 @@
 A Python script that saves an image from a USB camera during the hours of daylight, from dawn till dusk.
 
 ## Installation
-Copy the files to a directory, the **imageFrames** and **videoCap** directories will be crerated when first run, the *tlphotos.json* file will be created with defults if it doesn't exist.
+Copy the files to a directory, the **imageFrames** and **videoCap** directories will be crerated when first run, the *tlphotos.json* file will be created with defaults if it doesn't exist.
 
 - tlphotos.py - captures the images
 - tlcombine.py - combines the captured images to a video file.
@@ -37,12 +37,11 @@ Use the cron to run the script, eg:
 ``` 
 $ crontab -e
 ```
-if asked, select nano as the editor then add:
+if asked, select nano as the editor then add to the end:
 ```
 */5 * * * * python ~/Programming/daytimelapse/tlphotos.py
 ```
 with '**~/Programming/daytimelapse/**' being the path to where you saved the script. This takes an image every five minutes.
-
 
 ## Combining the JPG files to a video
 
