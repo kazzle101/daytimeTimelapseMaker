@@ -8,7 +8,7 @@ Copy the files to a directory, the **imageFrames** and **videoCap** directories 
 - tlphotos.py - captures the images
 - tlcombine.py - combines the captured images to a video file.
 
-You may need to add astral and OpenCV and argparse:
+You may need to add astral, OpenCV and argparse:
 ```
 pip install astral
 pip install opencv-python
@@ -27,7 +27,7 @@ Settings can be found in the **tlphotos.json** file, these are edititable, the o
 ```
 the *saveImages* - true to save the jpg images, *saveVideo* - this is supposed to append the images to a video file, currently is does not work, *videoFPS* is related to saveVideo. *dawnOffsetMinutes* and *duskOffsetMinutes* - this starts the image taking before dawn and after dusk, currently 40 minutes either side.
 
-For dawn and dusk to be calculated properly, set your location at the top of tlphotos.py
+For dawn and dusk to be calculated properly, set your location at the top of **tlphotos.py**
 ```
 _lat, _lon = 53.47, -2.25
 _city = LocationInfo("Manchester", "England", "Europe/London", _lat, _lon)
