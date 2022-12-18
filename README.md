@@ -48,7 +48,7 @@ with '**~/Programming/daytimelapse/**' being the path to where you saved the scr
 **tlcombine.py** is a utility for combining the jpgs to a video file
 ```
 $ python tlcombine.py --help
-usage: tlcombine.py [-h] [-d DIR] [-o OUT] [-r] [-f FPS]
+usage: tlcombine.py [-h] [-d DIR] [-o OUT] [-r] [-f FPS] [-t]
 
 combines JPG files into an AVI file
 
